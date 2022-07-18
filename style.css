@@ -1,0 +1,124 @@
+
+
+
+body {
+  background-color: hsl(217, 54%, 11%);
+  
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  
+}
+
+
+
+.card {
+  font-family:outfit,sans-serif;
+  border: 1px hidden;
+  background-color: hsl(216, 50%, 16%);
+  position: relative;
+  width: 300px;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.middle {
+  top: 29.1%;
+  left: 50%;
+  position:absolute;
+  opacity: 0;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  border: 1px solid cyan;
+  border-radius: 10px;
+  background-color: cyan;
+  width: 300px;
+  height: 300px;
+}
+.svg{
+  top: 29.5%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  opacity: 0;
+
+}
+
+
+.img {
+  width: 300px;
+  border-radius: 10px;
+  
+}
+
+.view:hover .img {
+  opacity:1;
+}
+
+.view:hover .middle {
+  opacity: 0.6;
+  cursor: pointer;
+  transition: 1s ease-in;
+}
+ .view:hover .svg{
+  opacity: 1;
+  transition: 0.5s ease-in;
+ }
+
+.p {
+  font-size: 18px;
+  color: hsl(215, 51%, 70%);
+  font-weight: 400;
+}
+
+.card>h2 {
+  color: hsl(0, 0%, 100%);
+  font-weight:600;
+}
+
+.icon {
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon>#valeu {
+  color: cyan;
+}
+
+#creator {
+  display: flex;
+}
+
+#creator>p {
+  padding-left: 30px;
+  
+}
+
+#creator>.avater {
+  width: 50px;
+  border: 2px solid #fff;
+  border-radius: 100%
+}
+
+.p span:hover,
+h2:hover {
+  color: cyan;
+  opacity: 1;
+  cursor:pointer;
+}
+
+ .p span {
+  color: #fff;
+  font-weight: 400;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+  display: grid;
+}
+hr {
+  color: hsl(215, 32%, 27%) ;
+}
